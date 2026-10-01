@@ -4,7 +4,7 @@
 
 ## 本地查看
 
-在本目录运行 `python3 -m http.server 8765`，然后打开 http://localhost:8765 。也可以直接打开 `index.html`。在线字体不可用时会使用系统字体。
+在本目录运行 `python3 -m http.server 8765`，然后打开 http://localhost:8765 。也可以直接打开 `index.html`。页面使用系统字体。
 
 ## 发布到组织主页
 
@@ -20,6 +20,6 @@
 - SWE-bench Pro：`sections/04b_experiments_swe.tex`，表 `tab:swebench_pro`。明确标注 50 道抽样任务及 4 次独立运行，不作为全榜成绩。
 - `assets/paper.pdf` 是原始 `main.pdf` 的副本。两张网页配图由正文引用的 `figures/framework_final.pdf` 和 `figures/organic_eval/convergence.pdf` 转成 PNG，未修改数据。
 - BibTeX 按作者确认，使用当前投稿版标题和作者名单，沿用原 arXiv 条目的编号 `2603.26664`、年份、分类和链接；arXiv 更新版本后仍使用同一编号。
-- GitHub 按钮链接到已存在的组织主页，不声称代码已发布。
+- Code 按钮直接链接公开代码仓库：https://github.com/LearningToCommit/LearningToCommit 。
 
 修改文字和布局用 `index.html`，样式用 `styles.css`，步骤切换和实验表数据用 `script.js`。
